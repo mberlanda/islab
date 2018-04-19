@@ -1,4 +1,4 @@
-class SampleOb(object):
+class SampleObj(object):
 
     def __init__(self):
         return
@@ -8,8 +8,8 @@ class SampleOb(object):
 
     @classmethod
     def bar(cls):
-        print 'bar'    
+        print 'bar'
 
     @staticmethod
     def baz(x):
-        print x    
+        print x
